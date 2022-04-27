@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/stock_list_image_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/add_shoe_placeholder"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/shoe_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shoe Title"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/shoe_product_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="shoe product id"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+    </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/stock_list_next_image_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/outline_arrow_forward_24"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"/>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

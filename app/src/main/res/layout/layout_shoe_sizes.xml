@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/shoe_sizes_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="Select shoe sizes"
+        android:textColor="@color/purple_700"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shoe_sizes_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/unSelected_shoe_sizes_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="Select at least one shoe size"
+        android:textColor="@color/error"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+    <ProgressBar
+        android:id="@+id/shoe_size_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>

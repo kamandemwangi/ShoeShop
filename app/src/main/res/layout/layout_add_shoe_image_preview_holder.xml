@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <ImageView
+        android:id="@+id/add_shoe_image_preview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/outline_store_24"/>
+
+    <ImageButton
+        android:id="@+id/icon_remove_shoe"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/outline_delete_24"
+        android:layout_gravity="bottom|right"
+        android:background="?attr/selectableItemBackground"/>
+
+</FrameLayout>

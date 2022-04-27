@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add"
+        android:enabled="true"
+        android:icon="@drawable/outline_add_24"
+        android:title="Add"/>
+
+    <item
+        android:id="@+id/stock"
+        android:enabled="true"
+        android:icon="@drawable/outline_inventory_2_20"
+        android:title="Stock"/>
+
+    <item
+        android:id="@+id/orders"
+        android:enabled="true"
+        android:icon="@drawable/outline_inventory_20"
+        android:title="Orders"/>
+
+    <item
+        android:id="@+id/finances"
+        android:enabled="true"
+        android:icon="@drawable/outline_payments_24"
+        android:title="Finances"/>
+
+    <item
+        android:id="@+id/shop_details"
+        android:enabled="true"
+        android:icon="@drawable/outline_store_24"
+        android:title="Shop Details"/>
+</menu>
